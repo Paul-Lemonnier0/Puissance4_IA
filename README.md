@@ -1,6 +1,6 @@
 # IA Puissance 4
 
-Implémentation d'une IA alpha beta qui joue au puissance 4
+Implémentation d'une IA alpha beta pour le jeu du puissance 4.
 
 ## Description
 
@@ -26,18 +26,18 @@ Un fichier pour le joueur alpha beta (**joueur_alphabeta.cc, joueur_alphabeta.hh
 #### Dans un terminal à partir de la racine de ce répertoire, faire :   
 
 ```
-
 mkdir build
 cd build
 cmake ..
 make
 ./Arene_light
-
 ```
 
-#### Pour choisir les joueurs ou le nombre de parties, il faut se rendre dans le fichier main.cpp et modifier cette ligne :
+#### Choix des joueurs et du nombre de parties :
 
 ```
+//main.cpp
+
 int nombre_parties = 100;
 Arbitre a (9999, player::A_, player::BRUTAL_, nombre_parties);
 ```
@@ -51,7 +51,7 @@ player::RAND
 ```
 
 >[!NOTE]   
->Les diagonales ne sont pas prises en compte ici. Afin de le modifier il faut juste se rendre dans le fichier joueur_alphabeta.cpp et modifier en ce sens la fonction d'évaluation.
+>Les diagonales ne sont pas prises en compte ici.
 
 ## Auteur
 
