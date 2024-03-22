@@ -14,8 +14,10 @@ Chaque joueur à 10 millisecondes pour renvoyer son coup à l'arbitre.
 ## Fichiers disponibles
 
 Un fichier **main.cpp** qui choisi les joueurs, le nombre de parties et lance le jeu.   
+    
 Un fichier pour le jeu (**jeu.hh, jeu.o**).   
 Un fichier pour l'arbitre (**arbitre.cc, arbitre.hh**).   
+     
 Un fichier pour le joueur brutal (**joueur_brutal.hh, joueur_brutal.o**).   
 Un fichier pour le joueur random (**joueur_random.hh, joueur_random.o**).   
 Un fichier pour le joueur alpha beta (**joueur_alphabeta.cc, joueur_alphabeta.hh**).   
